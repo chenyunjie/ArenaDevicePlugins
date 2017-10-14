@@ -10,6 +10,7 @@
 		5EB1CCB01F91C0D800CA8619 /* ArenaDevicePlugins.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EB1CCAE1F91C0D800CA8619 /* ArenaDevicePlugins.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EB1CCB71F91C12500CA8619 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB1CCB61F91C12500CA8619 /* Device.swift */; };
 		5EB1CCB91F91D5F800CA8619 /* ArenaDevicePlugins.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5EB1CCB81F91D5F800CA8619 /* ArenaDevicePlugins.podspec */; };
+		5EB1CCBB1F91E2E000CA8619 /* arena.plugins.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EB1CCBA1F91E2DF00CA8619 /* arena.plugins.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		5EB1CCAF1F91C0D800CA8619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EB1CCB61F91C12500CA8619 /* Device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
 		5EB1CCB81F91D5F800CA8619 /* ArenaDevicePlugins.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ArenaDevicePlugins.podspec; sourceTree = "<group>"; };
+		5EB1CCBA1F91E2DF00CA8619 /* arena.plugins.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = arena.plugins.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +36,7 @@
 		5EB1CCA11F91C0D800CA8619 = {
 			isa = PBXGroup;
 			children = (
+				5EB1CCBA1F91E2DF00CA8619 /* arena.plugins.plist */,
 				5EB1CCB81F91D5F800CA8619 /* ArenaDevicePlugins.podspec */,
 				5EB1CCAD1F91C0D800CA8619 /* Sources */,
 				5EB1CCAC1F91C0D800CA8619 /* Products */,
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EB1CCBB1F91E2E000CA8619 /* arena.plugins.plist in Resources */,
 				5EB1CCB91F91D5F800CA8619 /* ArenaDevicePlugins.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
