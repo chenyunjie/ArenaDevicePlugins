@@ -6,13 +6,9 @@
 //  Copyright © 2017年 江苏斑马软件技术有限公司. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class Device: NSObject {
-
-    //获取uuid值
-    func uuid() -> String {
-        return UUID().uuidString
-    }
-    
+//获取uuid值
+func uuid() -> String {
+    return UUID().uuidString
 }
