@@ -9,6 +9,6 @@
 import Foundation
 
 //获取uuid值
-func uuid() -> String {
+public func uuid() -> String {
     return UUID().uuidString
 }
