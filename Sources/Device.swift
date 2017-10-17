@@ -14,7 +14,7 @@ class Device: NSObject {
         return UUID().uuidString
     }
  
-    public class func deviceInfo(parameters data: Dictionary<String, Any>, result callback: @escaping (_ result: Dictionary<String, Any>) -> Void) {
+    public class func deviceInfo(_ data: [String: Any], result callback: @escaping (_ result: [String: Any]) -> Void) {
         let deadLineTime = DispatchTime.now() + .seconds(1)
         DispatchQueue.main.asyncAfter(deadline: deadLineTime) {
             let result = ["result": "success"]
