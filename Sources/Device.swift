@@ -14,12 +14,11 @@ class Device: NSObject {
         return UUID().uuidString
     }
  
-    public class func deviceInfo(_ data: [String: Any], result callback: @escaping (_ result: [String: Any]) -> Void) {
+    public class func deviceInfo(_ data: [String: Any]) {
         let deadLineTime = DispatchTime.now() + .seconds(1)
         DispatchQueue.main.asyncAfter(deadline: deadLineTime) {
             let result = ["result": "success"]
-            
-            callback(result)
+            NotificationCenter.default.post(name:NSNotification.Name(rawValue: data["callback"] as! String), object: result, userInfo: nil)
         }
     }
 }
