@@ -12,7 +12,7 @@
 			<key>api</key>
 			<string>arena.device.info</string>
 			<key>method</key>
-			<string>deviceInfo:result:</string>
+			<string>deviceInfo:</string>
 			<key>className</key>
 			<string>Device</string>
 			<key>async</key>
